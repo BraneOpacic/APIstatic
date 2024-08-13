@@ -1,0 +1,198 @@
+{
+  "currentPage": 1,
+  "totalPages": 2,
+  "itemsPerPage": 10,
+  "totalItems": 20,
+  "data": [
+    {
+      "sessionId": { "value": "12345678" },
+      "userId": { "value": "00001" },
+      "name": { "value": "John Doe" },
+      "signedIn": {
+        "value": true,
+        "component": "toggle",
+        "toggleValues": ["on", "off"],
+        "endpointURL": "https://something.com/endpoint?somequery=param"
+      },
+      "debug": { "value": false },
+      "environment": { "value": "production" },
+      "collection": { "value": "default" },
+      "remoteIp": { "value": "192.168.1.1" },
+      "expires": { "value": "2024-08-11T12:00:00Z" },
+      "tranCount": { "value": 5 },
+      "ntimPhase": { "value": 1 },
+      "miscInfo": { "value": "Sample info 1" }
+    },
+    {
+      "sessionId": { "value": "87654321" },
+      "userId": { "value": "00002" },
+      "name": { "value": "Jane Smith" },
+      "signedIn": {
+        "value": false,
+        "component": "toggle",
+        "toggleValues": ["on", "off"],
+        "endpointURL": "https://something.com/endpoint?somequery=param"
+      },
+      "debug": { "value": true },
+      "environment": { "value": "staging" },
+      "collection": { "value": "custom" },
+      "remoteIp": { "value": "10.0.0.1" },
+      "expires": { "value": "2024-08-12T12:00:00Z" },
+      "tranCount": { "value": 3 },
+      "ntimPhase": { "value": 2 },
+      "miscInfo": { "value": "Sample info 2" }
+    },
+    {
+      "sessionId": { "value": "11223344" },
+      "userId": { "value": "00003" },
+      "name": { "value": "Alice Johnson" },
+      "signedIn": {
+        "value": true,
+        "component": "toggle",
+        "toggleValues": ["on", "off"],
+        "endpointURL": "https://something.com/endpoint?somequery=param"
+      },
+      "debug": { "value": false },
+      "environment": { "value": "development" },
+      "collection": { "value": "default" },
+      "remoteIp": { "value": "172.16.0.1" },
+      "expires": { "value": "2024-08-13T12:00:00Z" },
+      "tranCount": { "value": 7 },
+      "ntimPhase": { "value": 3 },
+      "miscInfo": { "value": "Sample info 3" }
+    },
+    {
+      "sessionId": { "value": "44332211" },
+      "userId": { "value": "00004" },
+      "name": { "value": "Bob Brown" },
+      "signedIn": {
+        "value": false,
+        "component": "toggle",
+        "toggleValues": ["on", "off"],
+        "endpointURL": "https://something.com/endpoint?somequery=param"
+      },
+      "debug": { "value": true },
+      "environment": { "value": "production" },
+      "collection": { "value": "custom" },
+      "remoteIp": { "value": "192.168.100.1" },
+      "expires": { "value": "2024-08-14T12:00:00Z" },
+      "tranCount": { "value": 2 },
+      "ntimPhase": { "value": 1 },
+      "miscInfo": { "value": "Sample info 4" }
+    },
+    {
+      "sessionId": { "value": "55667788" },
+      "userId": { "value": "00005" },
+      "name": { "value": "Charlie Davis" },
+      "signedIn": {
+        "value": true,
+        "component": "toggle",
+        "toggleValues": ["on", "off"],
+        "endpointURL": "https://something.com/endpoint?somequery=param"
+      },
+      "debug": { "value": false },
+      "environment": { "value": "staging" },
+      "collection": { "value": "default" },
+      "remoteIp": { "value": "10.0.100.1" },
+      "expires": { "value": "2024-08-15T12:00:00Z" },
+      "tranCount": { "value": 6 },
+      "ntimPhase": { "value": 2 },
+      "miscInfo": { "value": "Sample info 5" }
+    },
+    {
+      "sessionId": { "value": "88776655" },
+      "userId": { "value": "00006" },
+      "name": { "value": "Diana Evans" },
+      "signedIn": {
+        "value": false,
+        "component": "toggle",
+        "toggleValues": ["on", "off"],
+        "endpointURL": "https://something.com/endpoint?somequery=param"
+      },
+      "debug": { "value": true },
+      "environment": { "value": "development" },
+      "collection": { "value": "custom" },
+      "remoteIp": { "value": "172.16.50.1" },
+      "expires": { "value": "2024-08-16T12:00:00Z" },
+      "tranCount": { "value": 4 },
+      "ntimPhase": { "value": 3 },
+      "miscInfo": { "value": "Sample info 6" }
+    },
+    {
+      "sessionId": { "value": "99887766" },
+      "userId": { "value": "00007" },
+      "name": { "value": "Ethan Foster" },
+      "signedIn": {
+        "value": true,
+        "component": "toggle",
+        "toggleValues": ["on", "off"],
+        "endpointURL": "https://something.com/endpoint?somequery=param"
+      },
+      "debug": { "value": false },
+      "environment": { "value": "production" },
+      "collection": { "value": "default" },
+      "remoteIp": { "value": "192.168.10.1" },
+      "expires": { "value": "2024-08-17T12:00:00Z" },
+      "tranCount": { "value": 1 },
+      "ntimPhase": { "value": 1 },
+      "miscInfo": { "value": "Sample info 7" }
+    },
+    {
+      "sessionId": { "value": "66778899" },
+      "userId": { "value": "00008" },
+      "name": { "value": "Fiona Green" },
+      "signedIn": {
+        "value": false,
+        "component": "toggle",
+        "toggleValues": ["on", "off"],
+        "endpointURL": "https://something.com/endpoint?somequery=param"
+      },
+      "debug": { "value": true },
+      "environment": { "value": "staging" },
+      "collection": { "value": "custom" },
+      "remoteIp": { "value": "10.1.1.1" },
+      "expires": { "value": "2024-08-18T12:00:00Z" },
+      "tranCount": { "value": 8 },
+      "ntimPhase": { "value": 2 },
+      "miscInfo": { "value": "Sample info 8" }
+    },
+    {
+      "sessionId": { "value": "77665544" },
+      "userId": { "value": "00009" },
+      "name": { "value": "George Harris" },
+      "signedIn": {
+        "value": true,
+        "component": "toggle",
+        "toggleValues": ["on", "off"],
+        "endpointURL": "https://something.com/endpoint?somequery=param"
+      },
+      "debug": { "value": false },
+      "environment": { "value": "development" },
+      "collection": { "value": "default" },
+      "remoteIp": { "value": "172.16.10.1" },
+      "expires": { "value": "2024-08-19T12:00:00Z" },
+      "tranCount": { "value": 9 },
+      "ntimPhase": { "value": 3 },
+      "miscInfo": { "value": "Sample info 9" }
+    },
+    {
+      "sessionId": { "value": "55443322" },
+      "userId": { "value": "00010" },
+      "name": { "value": "Hannah Jones" },
+      "signedIn": {
+        "value": false,
+        "component": "toggle",
+        "toggleValues": ["on", "off"],
+        "endpointURL": "https://something.com/endpoint?somequery=param"
+      },
+      "debug": { "value": true },
+      "environment": { "value": "production" },
+      "collection": { "value": "custom" },
+      "remoteIp": { "value": "192.168.50.1" },
+      "expires": { "value": "2024-08-20T12:00:00Z" },
+      "tranCount": { "value": 10 },
+      "ntimPhase": { "value": 1 },
+      "miscInfo": { "value": "Sample info 10" }
+    }
+  ]
+}
