@@ -1,0 +1,148 @@
+{
+  "currentPage": 1,
+  "totalPages": 2,
+  "itemsPerPage": 10,
+  "totalItems": 20,
+  "data": [
+    {
+      "transactionId": { "value": "ABC12345" },
+      "clientId": { "value": "C0001" },
+      "username": { "value": "Alex King" },
+      "isActive": { "value": true },
+      "status": { "value": "completed" }
+    },
+    {
+      "transactionId": { "value": "DEF67890" },
+      "clientId": { "value": "C0002" },
+      "username": { "value": "Betty Ross" },
+      "isActive": { "value": false },
+      "status": { "value": "pending" }
+    },
+    {
+      "transactionId": { "value": "GHI34567" },
+      "clientId": { "value": "C0003" },
+      "username": { "value": "Chris Lee" },
+      "isActive": { "value": true },
+      "status": { "value": "completed" }
+    },
+    {
+      "transactionId": { "value": "JKL89012" },
+      "clientId": { "value": "C0004" },
+      "username": { "value": "Dana White" },
+      "isActive": { "value": false },
+      "status": { "value": "in_progress" }
+    },
+    {
+      "transactionId": { "value": "MNO45678" },
+      "clientId": { "value": "C0005" },
+      "username": { "value": "Evan Peters" },
+      "isActive": { "value": true },
+      "status": { "value": "completed" }
+    },
+    {
+      "transactionId": { "value": "PQR23456" },
+      "clientId": { "value": "C0006" },
+      "username": { "value": "Fiona Bell" },
+      "isActive": { "value": false },
+      "status": { "value": "pending" }
+    },
+    {
+      "transactionId": { "value": "STU78901" },
+      "clientId": { "value": "C0007" },
+      "username": { "value": "George Black" },
+      "isActive": { "value": true },
+      "status": { "value": "completed" }
+    },
+    {
+      "transactionId": { "value": "VWX56789" },
+      "clientId": { "value": "C0008" },
+      "username": { "value": "Holly Brown" },
+      "isActive": { "value": false },
+      "status": { "value": "in_progress" }
+    },
+    {
+      "transactionId": { "value": "YZA12345" },
+      "clientId": { "value": "C0009" },
+      "username": { "value": "Ian Green" },
+      "isActive": { "value": true },
+      "status": { "value": "completed" }
+    },
+    {
+      "transactionId": { "value": "BCD67890" },
+      "clientId": { "value": "C0010" },
+      "username": { "value": "Jane Black" },
+      "isActive": { "value": false },
+      "status": { "value": "pending" }
+    },
+    {
+      "transactionId": { "value": "EFG34567" },
+      "clientId": { "value": "C0011" },
+      "username": { "value": "Kevin White" },
+      "isActive": { "value": true },
+      "status": { "value": "completed" }
+    },
+    {
+      "transactionId": { "value": "HIJ89012" },
+      "clientId": { "value": "C0012" },
+      "username": { "value": "Laura Scott" },
+      "isActive": { "value": false },
+      "status": { "value": "in_progress" }
+    },
+    {
+      "transactionId": { "value": "KLM45678" },
+      "clientId": { "value": "C0013" },
+      "username": { "value": "Mason King" },
+      "isActive": { "value": true },
+      "status": { "value": "completed" }
+    },
+    {
+      "transactionId": { "value": "NOP23456" },
+      "clientId": { "value": "C0014" },
+      "username": { "value": "Nina West" },
+      "isActive": { "value": false },
+      "status": { "value": "pending" }
+    },
+    {
+      "transactionId": { "value": "QRS78901" },
+      "clientId": { "value": "C0015" },
+      "username": { "value": "Oliver Brown" },
+      "isActive": { "value": true },
+      "status": { "value": "completed" }
+    },
+    {
+      "transactionId": { "value": "TUV56789" },
+      "clientId": { "value": "C0016" },
+      "username": { "value": "Paula White" },
+      "isActive": { "value": false },
+      "status": { "value": "in_progress" }
+    },
+    {
+      "transactionId": { "value": "WXY12345" },
+      "clientId": { "value": "C0017" },
+      "username": { "value": "Quinn Red" },
+      "isActive": { "value": true },
+      "status": { "value": "completed" }
+    },
+    {
+      "transactionId": { "value": "ZAB67890" },
+      "clientId": { "value": "C0018" },
+      "username": { "value": "Rachel Blue" },
+      "isActive": { "value": false },
+      "status": { "value": "pending" }
+    },
+    {
+      "transactionId": { "value": "CDE34567" },
+      "clientId": { "value": "C0019" },
+      "username": { "value": "Sam Yellow" },
+      "isActive": { "value": true },
+      "status": { "value": "completed" }
+    },
+    {
+      "transactionId": { "value": "FGH89012" },
+      "clientId": { "value": "C0020" },
+      "username": { "value": "Tina Orange" },
+      "isActive": { "value": false },
+      "status": { "value": "in_progress" }
+    }
+  ]
+}
