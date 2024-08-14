@@ -1,0 +1,3925 @@
+{
+  "criteriaList": [
+    {
+      "multiselect": true,
+      "visibility": 0,
+      "display": "Queue ID",
+      "dataType": 1,
+      "name": "ipdWAId",
+      "viewType": 1,
+      "choiceList": [
+        {
+          "default": false,
+          "name": "A6 All Adjustments",
+          "label": "A6 All Adjustments",
+          "value": "BLU61",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "A6 HVA",
+          "label": "A6 HVA",
+          "value": "BLU50",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "A6 Internal Adjustments",
+          "label": "A6 Internal Adjustments",
+          "value": "BLU62",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "AK PG Claims Corr",
+          "label": "AK PG Claims Corr",
+          "value": "WA57",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "AK PG Exception",
+          "label": "AK PG Exception",
+          "value": "WA56",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Amazon Autism",
+          "label": "Amazon Autism",
+          "value": "NAT70",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Amazon Claims Corr",
+          "label": "Amazon Claims Corr",
+          "value": "NAT58",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Amazon Corrected Bills",
+          "label": "Amazon Corrected Bills",
+          "value": "NAT60",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Amazon DSHS",
+          "label": "Amazon DSHS",
+          "value": "NAT85",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Amazon Foreign",
+          "label": "Amazon Foreign",
+          "value": "NAT72",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Amazon Medicare Corrected Bills",
+          "label": "Amazon Medicare Corrected Bills",
+          "value": "NAT61",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Amazon OHI",
+          "label": "Amazon OHI",
+          "value": "NAT67",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Amazon Orphan",
+          "label": "Amazon Orphan",
+          "value": "NAT81",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Amazon PCP/Referral",
+          "label": "Amazon PCP/Referral",
+          "value": "NAT73",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Amazon PEC Claims Corr",
+          "label": "Amazon PEC Claims Corr",
+          "value": "NAT59",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Amazon Referral Adj",
+          "label": "Amazon Referral Adj",
+          "value": "NAT112",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Amazon Rx",
+          "label": "Amazon Rx",
+          "value": "NAT57",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Amazon Sendback",
+          "label": "Amazon Sendback",
+          "value": "NAT87",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Amazon Technical Assistance",
+          "label": "Amazon Technical Assistance",
+          "value": "NAT110",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Amazon TG",
+          "label": "Amazon TG",
+          "value": "NAT86",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Amazon Travel/Lodging - Non Transplant",
+          "label": "Amazon Travel/Lodging - Non Transplant",
+          "value": "NAT93",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Appeals - Amazon",
+          "label": "Appeals - Amazon",
+          "value": "APPEALS08",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Appeals - BlueCard Home",
+          "label": "Appeals - BlueCard Home",
+          "value": "APPEALS09",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Appeals - BlueCard Home Legal",
+          "label": "Appeals - BlueCard Home Legal",
+          "value": "APPEALS24",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Appeals - BlueCard Host",
+          "label": "Appeals - BlueCard Host",
+          "value": "APPEALS10",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Appeals - BlueCard Host Responses",
+          "label": "Appeals - BlueCard Host Responses",
+          "value": "APPEALS22",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Appeals - Clinical",
+          "label": "Appeals - Clinical",
+          "value": "APPEALS18",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Appeals - Clinical BIG7",
+          "label": "Appeals - Clinical BIG7",
+          "value": "APPEALS28",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Appeals - Employee",
+          "label": "Appeals - Employee",
+          "value": "APPEALS11",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Appeals - Escalations",
+          "label": "Appeals - Escalations",
+          "value": "APPEALS12",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Appeals - FEP",
+          "label": "Appeals - FEP",
+          "value": "APPEALS26",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Appeals - IRO",
+          "label": "Appeals - IRO",
+          "value": "APPEALS23",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Appeals - Legal",
+          "label": "Appeals - Legal",
+          "value": "APPEALS19",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Appeals - Member",
+          "label": "Appeals - Member",
+          "value": "APPEALS01",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Appeals - Member Level II",
+          "label": "Appeals - Member Level II",
+          "value": "APPEALS13",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Appeals - Microsoft",
+          "label": "Appeals - Microsoft",
+          "value": "APPEALS14",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Appeals - Privacy",
+          "label": "Appeals - Privacy",
+          "value": "APPEALS20",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Appeals - Provider",
+          "label": "Appeals - Provider",
+          "value": "APPEALS02",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Appeals - Reject Research",
+          "label": "Appeals - Reject Research",
+          "value": "APPEALS25",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Appeals - RM",
+          "label": "Appeals - RM",
+          "value": "RM01",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Appeals - SEBB",
+          "label": "Appeals - SEBB",
+          "value": "APPEALS29",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Appeals - Shared Admin",
+          "label": "Appeals - Shared Admin",
+          "value": "APPEALS15",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Appeals - Technical Assistance",
+          "label": "Appeals - Technical Assistance",
+          "value": "APPEALS07",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Appeals - T-Mobile",
+          "label": "Appeals - T-Mobile",
+          "value": "APPEALS30",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Appeals - Vendor",
+          "label": "Appeals - Vendor",
+          "value": "APPEALS21",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Appeals - Weyerhaeuser",
+          "label": "Appeals - Weyerhaeuser",
+          "value": "APPEALS16",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Avista/Milliman/SFF",
+          "label": "Avista/Milliman/SFF",
+          "value": "WA19",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "BCBSA Mailings",
+          "label": "BCBSA Mailings",
+          "value": "PROV01",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "BlueCard Home",
+          "label": "BlueCard Home",
+          "value": "BLU08",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "BlueCard Home COB",
+          "label": "BlueCard Home COB",
+          "value": "BLU22",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "BlueCard Home Employee",
+          "label": "BlueCard Home Employee",
+          "value": "BLU20",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "BlueCard Home Evolent",
+          "label": "BlueCard Home Evolent",
+          "value": "BLU34",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "BlueCard Home HRA",
+          "label": "BlueCard Home HRA",
+          "value": "BLU23",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "BlueCard Home Med Supp",
+          "label": "BlueCard Home Med Supp",
+          "value": "BLU25",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "BlueCard Home Medical Review",
+          "label": "BlueCard Home Medical Review",
+          "value": "BLU26",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "BlueCard Home Medicare",
+          "label": "BlueCard Home Medicare",
+          "value": "BLU21",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "BlueCard Home Orphan",
+          "label": "BlueCard Home Orphan",
+          "value": "BLU27",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "BlueCard Home Technical Assistance",
+          "label": "BlueCard Home Technical Assistance",
+          "value": "BLU24",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "BlueCard Host AK CB - Inst EDI",
+          "label": "BlueCard Host AK CB - Inst EDI",
+          "value": "BLU35",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "BlueCard Host AK CB - Prof EDI",
+          "label": "BlueCard Host AK CB - Prof EDI",
+          "value": "BLU36",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "BlueCard Host AK CB ? Inst OPL",
+          "label": "BlueCard Host AK CB ? Inst OPL",
+          "value": "BLU39",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "BlueCard Host AK CB ? Prof OPL",
+          "label": "BlueCard Host AK CB ? Prof OPL",
+          "value": "BLU40",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "BlueCard Host Blue2",
+          "label": "BlueCard Host Blue2",
+          "value": "BLU28",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "BlueCard Host CB - Inst EDI",
+          "label": "BlueCard Host CB - Inst EDI",
+          "value": "BLU37",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "BlueCard Host CB - Prof EDI",
+          "label": "BlueCard Host CB - Prof EDI",
+          "value": "BLU38",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "BlueCard Host CB ? Inst OPL",
+          "label": "BlueCard Host CB ? Inst OPL",
+          "value": "BLU41",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "BlueCard Host CB ? Prof OPL",
+          "label": "BlueCard Host CB ? Prof OPL",
+          "value": "BLU42",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "BlueCard Host CB Voided Claims",
+          "label": "BlueCard Host CB Voided Claims",
+          "value": "BLU43",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "BlueCard Host Corrected Claims",
+          "label": "BlueCard Host Corrected Claims",
+          "value": "BLU06",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "BlueCard Host CS Corr",
+          "label": "BlueCard Host CS Corr",
+          "value": "BLU13",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "BlueCard Host CS Priority Scanning",
+          "label": "BlueCard Host CS Priority Scanning",
+          "value": "BLU09",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "BlueCard Host Escalations",
+          "label": "BlueCard Host Escalations",
+          "value": "BLU15",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "BlueCard Host FNSB Consent Forms",
+          "label": "BlueCard Host FNSB Consent Forms",
+          "value": "BLU48",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "BlueCard Host Institutional",
+          "label": "BlueCard Host Institutional",
+          "value": "BLU17",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "BlueCard Host Large Dollar Transplant",
+          "label": "BlueCard Host Large Dollar Transplant",
+          "value": "BLU32",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "BlueCard Host MRs",
+          "label": "BlueCard Host MRs",
+          "value": "BCHOSTMR",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "BlueCard Host MRs Exception",
+          "label": "BlueCard Host MRs Exception",
+          "value": "BLU18",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "BlueCard Host Orphan",
+          "label": "BlueCard Host Orphan",
+          "value": "BLU12",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "BlueCard Host PEI Claims Corr",
+          "label": "BlueCard Host PEI Claims Corr",
+          "value": "BLU31",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "BlueCard Host Professional",
+          "label": "BlueCard Host Professional",
+          "value": "BLU16",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "BlueCard Host Research",
+          "label": "BlueCard Host Research",
+          "value": "BLU45",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "BlueCard Host Sendback",
+          "label": "BlueCard Host Sendback",
+          "value": "BLU05",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "BlueCard Host Vendor",
+          "label": "BlueCard Host Vendor",
+          "value": "BLU44",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "BlueCard Large $/Transplant",
+          "label": "BlueCard Large $/Transplant",
+          "value": "BLU19",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "BlueCard Orphan",
+          "label": "BlueCard Orphan",
+          "value": "BLU12",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Broker/Producer - RM",
+          "label": "Broker/Producer - RM",
+          "value": "RM02",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Calypso - RM",
+          "label": "Calypso - RM",
+          "value": "RM03",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Calypso Employee IQ",
+          "label": "Calypso Employee IQ",
+          "value": "CORR07",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Calypso IQ",
+          "label": "Calypso IQ",
+          "value": "CORR06",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Calypso IQ Call Outs 1",
+          "label": "Calypso IQ Call Outs 1",
+          "value": "SUBRO02",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Calypso IQ Call Outs 2",
+          "label": "Calypso IQ Call Outs 2",
+          "value": "SUBRO03",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Calypso IQ Questions",
+          "label": "Calypso IQ Questions",
+          "value": "CORR16",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Calypso Recovery - RM",
+          "label": "Calypso Recovery - RM",
+          "value": "RM19",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Calypso Recovery Corr",
+          "label": "Calypso Recovery Corr",
+          "value": "CA01",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Calypso RR",
+          "label": "Calypso RR",
+          "value": "CORR05",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Calypso RR Employee",
+          "label": "Calypso RR Employee",
+          "value": "CORR11",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Calypso Subro - RM",
+          "label": "Calypso Subro - RM",
+          "value": "RM20",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Calypso Subro Case Corr",
+          "label": "Calypso Subro Case Corr",
+          "value": "SUBRO01",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Calypso Subro Employee RR",
+          "label": "Calypso Subro Employee RR",
+          "value": "CORR15",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Calypso Subro Level 3",
+          "label": "Calypso Subro Level 3",
+          "value": "SUBRO06",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Calypso Subro RR",
+          "label": "Calypso Subro RR",
+          "value": "CORR14",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Calypso Vendor Corr",
+          "label": "Calypso Vendor Corr",
+          "value": "SUBRO10",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Care Management - RM",
+          "label": "Care Management - RM",
+          "value": "RM04",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "CERiS Carewise Review",
+          "label": "CERiS Carewise Review",
+          "value": "WA60",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "CERiS Claims Review",
+          "label": "CERiS Claims Review",
+          "value": "WA59",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "CIR CB - AK OR - Institutional",
+          "label": "CIR CB - AK OR - Institutional",
+          "value": "AK32",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "CIR CB - AK OR - Other",
+          "label": "CIR CB - AK OR - Other",
+          "value": "AK34",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "CIR CB - AK OR - Professional",
+          "label": "CIR CB - AK OR - Professional",
+          "value": "AK33",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "CIR E WA Claims Corr",
+          "label": "CIR E WA Claims Corr",
+          "value": "CIR05",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Claims Entry Employee",
+          "label": "Claims Entry Employee",
+          "value": "WA61",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Claims Entry Exception",
+          "label": "Claims Entry Exception",
+          "value": "WA38",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Claims Entry Institutional",
+          "label": "Claims Entry Institutional",
+          "value": "WA44",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Claims Entry NAO",
+          "label": "Claims Entry NAO",
+          "value": "CE02",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Claims Entry Orphan",
+          "label": "Claims Entry Orphan",
+          "value": "WA53",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Claims Entry PG Exception",
+          "label": "Claims Entry PG Exception",
+          "value": "WA51",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Claims Entry Professional",
+          "label": "Claims Entry Professional",
+          "value": "WA43",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Claims Entry Technical Assistance",
+          "label": "Claims Entry Technical Assistance",
+          "value": "CE01",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Completed Work Items",
+          "label": "Completed Work Items",
+          "value": "QENTERED",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Core Claims - Corr",
+          "label": "Core Claims - Corr",
+          "value": "WA62",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Core Claims - Med Records",
+          "label": "Core Claims - Med Records",
+          "value": "WA63",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Core COB - Double Facets",
+          "label": "Core COB - Double Facets",
+          "value": "CORR20",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Core COB - Mult Updates",
+          "label": "Core COB - Mult Updates",
+          "value": "CORR21",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Core COB - OHI",
+          "label": "Core COB - OHI",
+          "value": "CORR18",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Core COB - Yes Updates",
+          "label": "Core COB - Yes Updates",
+          "value": "CORR19",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Core Orphan",
+          "label": "Core Orphan",
+          "value": "CORR22",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Corrected Bill Orphan",
+          "label": "Corrected Bill Orphan",
+          "value": "WA54",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Corrected Bills Voided Claims",
+          "label": "Corrected Bills Voided Claims",
+          "value": "CIR08",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Credentialing - RM",
+          "label": "Credentialing - RM",
+          "value": "RM05",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "CS Corr Med - Dimensions Member",
+          "label": "CS Corr Med - Dimensions Member",
+          "value": "DIM04",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "CS Corr Med - Employee",
+          "label": "CS Corr Med - Employee",
+          "value": "EMP07",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "CS Corr Med - LifeWise Member",
+          "label": "CS Corr Med - LifeWise Member",
+          "value": "LW03",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "CS Corr Med - NAO - Member",
+          "label": "CS Corr Med - NAO - Member",
+          "value": "NAT108",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "CS Corr Med - NAO Member Amazon",
+          "label": "CS Corr Med - NAO Member Amazon",
+          "value": "NAT111",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "CS Corr Med - Prov - COVID Responses",
+          "label": "CS Corr Med - Prov - COVID Responses",
+          "value": "CORR29",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "CS Corr Med - Provider",
+          "label": "CS Corr Med - Provider",
+          "value": "CORR23",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "CS Corr Med - Provider - AIM",
+          "label": "CS Corr Med - Provider - AIM",
+          "value": "CORR27",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "CS Corr Med - Provider - Cannot ID",
+          "label": "CS Corr Med - Provider - Cannot ID",
+          "value": "CORR28",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "CS Corr Med - Provider - eviCore",
+          "label": "CS Corr Med - Provider - eviCore",
+          "value": "CORR30",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "CS Corr Med - Provider - Timely Filing",
+          "label": "CS Corr Med - Provider - Timely Filing",
+          "value": "CORR31",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "CS Corr Med - Provider - Updates",
+          "label": "CS Corr Med - Provider - Updates",
+          "value": "CORR32",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "CS Corr Med - RM",
+          "label": "CS Corr Med - RM",
+          "value": "RM16",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "CS Corr Priority Scanning",
+          "label": "CS Corr Priority Scanning",
+          "value": "CORR02",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Dental Claims Corr",
+          "label": "Dental Claims Corr",
+          "value": "DENT06",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Dental Claims Sendback",
+          "label": "Dental Claims Sendback",
+          "value": "DENT17",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Dental Employee Claims",
+          "label": "Dental Employee Claims",
+          "value": "EMP01",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Dental Entry",
+          "label": "Dental Entry",
+          "value": "DENT07",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Dental Exception",
+          "label": "Dental Exception",
+          "value": "DENT04",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Dental Foreign",
+          "label": "Dental Foreign",
+          "value": "DENT19",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Dental MvD",
+          "label": "Dental MvD",
+          "value": "DENT13",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Dental Orphan",
+          "label": "Dental Orphan",
+          "value": "DENT09",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Dental Pending Research",
+          "label": "Dental Pending Research",
+          "value": "DENT12",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Dental Pre-Determinations",
+          "label": "Dental Pre-Determinations",
+          "value": "DENT11",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Dental Shared Adm Complete Retro Rev",
+          "label": "Dental Shared Adm Complete Retro Rev",
+          "value": "DENT21",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Dental Shared Admin Retro Review",
+          "label": "Dental Shared Admin Retro Review",
+          "value": "DENT20",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Dental Technical Assistance",
+          "label": "Dental Technical Assistance",
+          "value": "DENT02",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Dental vs. Medical Entry",
+          "label": "Dental vs. Medical Entry",
+          "value": "DENT15",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "EA WA Corrected Bills",
+          "label": "EA WA Corrected Bills",
+          "value": "WA24",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "EA WA Exception",
+          "label": "EA WA Exception",
+          "value": "WA09",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "EA WA Medical Claims Corr",
+          "label": "EA WA Medical Claims Corr",
+          "value": "WA11",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Employee Corrected Bills",
+          "label": "Employee Corrected Bills",
+          "value": "EMP16",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Employee Corrected Bills Voided Claims",
+          "label": "Employee Corrected Bills Voided Claims",
+          "value": "CIR09",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Employee Dental Orphan",
+          "label": "Employee Dental Orphan",
+          "value": "EMP17",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Employee Large $/Transplant",
+          "label": "Employee Large $/Transplant",
+          "value": "EMP14",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Employee Medical Claims Corr",
+          "label": "Employee Medical Claims Corr",
+          "value": "EMP06",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Employee Medical Orphan",
+          "label": "Employee Medical Orphan",
+          "value": "EMP18",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Employee OHI",
+          "label": "Employee OHI",
+          "value": "EMP19",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Employee Orphan",
+          "label": "Employee Orphan",
+          "value": "EMP20",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Evolent",
+          "label": "Evolent",
+          "value": "EVO01",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "FEP - RM",
+          "label": "FEP - RM",
+          "value": "RM06",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "FEP Audit Corr",
+          "label": "FEP Audit Corr",
+          "value": "FEP17",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "FEP Claims",
+          "label": "FEP Claims",
+          "value": "FEP19",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "FEP CS Corr",
+          "label": "FEP CS Corr",
+          "value": "FEP06",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "FEP IQ OHI",
+          "label": "FEP IQ OHI",
+          "value": "FEP14",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "FEP Medicare",
+          "label": "FEP Medicare",
+          "value": "FEP20",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "FEP Medicare Corrected Bills",
+          "label": "FEP Medicare Corrected Bills",
+          "value": "FEP13",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "FEP Orphan",
+          "label": "FEP Orphan",
+          "value": "FEP12",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "FEP R & R Claims",
+          "label": "FEP R & R Claims",
+          "value": "FEP16",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "FEP Sendback",
+          "label": "FEP Sendback",
+          "value": "FEP04",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "FEP SIU Corrected Bills",
+          "label": "FEP SIU Corrected Bills",
+          "value": "CIR11",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "FEP Technical Assistance",
+          "label": "FEP Technical Assistance",
+          "value": "FEP02",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Finance - RM",
+          "label": "Finance - RM",
+          "value": "RM07",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "General Sendback",
+          "label": "General Sendback",
+          "value": "QSB",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "General Sendback Exceptions",
+          "label": "General Sendback Exceptions",
+          "value": "QSBE",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "HCA Corr",
+          "label": "HCA Corr",
+          "value": "NAT102",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "HCA Subscriber Submits",
+          "label": "HCA Subscriber Submits",
+          "value": "NAT101",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Individual Exception Entry",
+          "label": "Individual Exception Entry",
+          "value": "WA49",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Individual Medical Claims Corr",
+          "label": "Individual Medical Claims Corr",
+          "value": "WA50",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Large $ Itemizations",
+          "label": "Large $ Itemizations",
+          "value": "WA58",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Large $/Transplant Team",
+          "label": "Large $/Transplant Team",
+          "value": "WA27",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "LWAZ Employee Medical Claims Corr",
+          "label": "LWAZ Employee Medical Claims Corr",
+          "value": "AZ11",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "LWAZ Medical Claims Corr",
+          "label": "LWAZ Medical Claims Corr",
+          "value": "AZ06",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "LWOR Group Claims Corr",
+          "label": "LWOR Group Claims Corr",
+          "value": "OR17",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "LWOR Group Exception Entry",
+          "label": "LWOR Group Exception Entry",
+          "value": "OR07",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "M & B",
+          "label": "M & B",
+          "value": "WA40",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "M&B NAO - RM",
+          "label": "M&B NAO - RM",
+          "value": "RM09",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Mailroom - RM",
+          "label": "Mailroom - RM",
+          "value": "RM10",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Med Supp Claims Corr",
+          "label": "Med Supp Claims Corr",
+          "value": "WA28",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Med Supp Corrected Bills",
+          "label": "Med Supp Corrected Bills",
+          "value": "WA25",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Med Supp Entry",
+          "label": "Med Supp Entry",
+          "value": "WA22",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Med Supp Excepton Entry",
+          "label": "Med Supp Excepton Entry",
+          "value": "WA37",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Medical Review",
+          "label": "Medical Review",
+          "value": "IHM01",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Medicare Advantage BlueCard",
+          "label": "Medicare Advantage BlueCard",
+          "value": "PHP03",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Medicare Advantage Claims",
+          "label": "Medicare Advantage Claims",
+          "value": "MA01",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Medicare Advantage Corr",
+          "label": "Medicare Advantage Corr",
+          "value": "MA02",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Medicare Advantage Split Claims",
+          "label": "Medicare Advantage Split Claims",
+          "value": "MA03",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Medicare Corrected Bills",
+          "label": "Medicare Corrected Bills",
+          "value": "WA31",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Medicare Demand Letter",
+          "label": "Medicare Demand Letter",
+          "value": "MSP02",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Membership & Billing Individual",
+          "label": "Membership & Billing Individual",
+          "value": "MANDB",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Microsoft Autism",
+          "label": "Microsoft Autism",
+          "value": "NAT19",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Microsoft BlueCard",
+          "label": "Microsoft BlueCard",
+          "value": "NAT107",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Microsoft EAP",
+          "label": "Microsoft EAP",
+          "value": "NAT49",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Microsoft Foreign",
+          "label": "Microsoft Foreign",
+          "value": "NAT63",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Microsoft IQ",
+          "label": "Microsoft IQ",
+          "value": "NAT62",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Microsoft Medical Claims Corr",
+          "label": "Microsoft Medical Claims Corr",
+          "value": "NAT10",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Microsoft OHI",
+          "label": "Microsoft OHI",
+          "value": "NAT65",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Microsoft Orphan",
+          "label": "Microsoft Orphan",
+          "value": "NAT82",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Microsoft Rx",
+          "label": "Microsoft Rx",
+          "value": "NAT39",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Microsoft Sendback",
+          "label": "Microsoft Sendback",
+          "value": "NAT79",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Microsoft Technical Assistance",
+          "label": "Microsoft Technical Assistance",
+          "value": "NAT90",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Mid Market Sales - RM",
+          "label": "Mid Market Sales - RM",
+          "value": "RM22",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "MSFT Travel Lodging - Non Transplant",
+          "label": "MSFT Travel Lodging - Non Transplant",
+          "value": "NAT113",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "MSP Claims",
+          "label": "MSP Claims",
+          "value": "MSP01",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "NAO I OHI Adjustments",
+          "label": "NAO I OHI Adjustments",
+          "value": "NAT114",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "NAO II Claims Corr",
+          "label": "NAO II Claims Corr",
+          "value": "NAT94",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "NAO II COB",
+          "label": "NAO II COB",
+          "value": "NAT95",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "NAO II Corrected Bills",
+          "label": "NAO II Corrected Bills",
+          "value": "NAT28",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "NAO II DSHS",
+          "label": "NAO II DSHS",
+          "value": "NAT97",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "NAO II Exception",
+          "label": "NAO II Exception",
+          "value": "NAT104",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "NAO II Foreign",
+          "label": "NAO II Foreign",
+          "value": "NAT105",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "NAO II Medicare",
+          "label": "NAO II Medicare",
+          "value": "NAT100",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "NAO II Medicare Corrected Bills",
+          "label": "NAO II Medicare Corrected Bills",
+          "value": "NAT29",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "NAO II Orphan",
+          "label": "NAO II Orphan",
+          "value": "NAT98",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "NAO II RX",
+          "label": "NAO II RX",
+          "value": "NAT41",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "NAO II Sendbacks",
+          "label": "NAO II Sendbacks",
+          "value": "NAT99",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "NAO II Technical Assistance",
+          "label": "NAO II Technical Assistance",
+          "value": "NAT106",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "PEI Claims Corr",
+          "label": "PEI Claims Corr",
+          "value": "CIR03",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "PersonalCare Plan Referrals",
+          "label": "PersonalCare Plan Referrals",
+          "value": "NAT88",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "PG Corrected Bills",
+          "label": "PG Corrected Bills",
+          "value": "WA26",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "PG Orphan",
+          "label": "PG Orphan",
+          "value": "WA55",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "PHP Claims",
+          "label": "PHP Claims",
+          "value": "PHP01",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "PHP Correspondence",
+          "label": "PHP Correspondence",
+          "value": "PHP02",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "PHP Medical Records",
+          "label": "PHP Medical Records",
+          "value": "NAS19",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "PIMS - RM",
+          "label": "PIMS - RM",
+          "value": "RM13",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "PNM - B2 No Surprises Dispute",
+          "label": "PNM - B2 No Surprises Dispute",
+          "value": "PNM02",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "PNM - No Surprises Dispute",
+          "label": "PNM - No Surprises Dispute",
+          "value": "PNM01",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Private Exchange Corrected Bills",
+          "label": "Private Exchange Corrected Bills",
+          "value": "PE03",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Private Exchange Medicare Corrected Bills",
+          "label": "Private Exchange Medicare Corrected Bills",
+          "value": "PE10",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Provider Engagement - RM",
+          "label": "Provider Engagement - RM",
+          "value": "RM18",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Reject Research",
+          "label": "Reject Research",
+          "value": "RR01",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Requesting An Original",
+          "label": "Requesting An Original",
+          "value": "QRO",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Rescan",
+          "label": "Rescan",
+          "value": "QRS",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Sales - RM",
+          "label": "Sales - RM",
+          "value": "RM14",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Shared  Admin RN Retro Review Medical",
+          "label": "Shared  Admin RN Retro Review Medical",
+          "value": "NAS30",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Shared Admin - RM",
+          "label": "Shared Admin - RM",
+          "value": "RM11",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Shared Admin Blue2",
+          "label": "Shared Admin Blue2",
+          "value": "NAS09",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Shared Admin Completed Retro Rev Med",
+          "label": "Shared Admin Completed Retro Rev Med",
+          "value": "NAS28",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Shared Admin Corrected Claims",
+          "label": "Shared Admin Corrected Claims",
+          "value": "NAS02",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Shared Admin CS Corr",
+          "label": "Shared Admin CS Corr",
+          "value": "NAS10",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Shared Admin Institutional",
+          "label": "Shared Admin Institutional",
+          "value": "NAS16",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Shared Admin Large Dollar Adjustments",
+          "label": "Shared Admin Large Dollar Adjustments",
+          "value": "NAS13",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Shared Admin Membership Review",
+          "label": "Shared Admin Membership Review",
+          "value": "NAS11",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Shared Admin MR AMERIBEN",
+          "label": "Shared Admin MR AMERIBEN",
+          "value": "NAS20",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Shared Admin MR BENESYS",
+          "label": "Shared Admin MR BENESYS",
+          "value": "NAS21",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Shared Admin MR COLLECTIVE HEALTH",
+          "label": "Shared Admin MR COLLECTIVE HEALTH",
+          "value": "NAS29",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Shared Admin MR HEALTHSMART",
+          "label": "Shared Admin MR HEALTHSMART",
+          "value": "NAS22",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Shared Admin MR NWA",
+          "label": "Shared Admin MR NWA",
+          "value": "NAS23",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Shared Admin MR REHN",
+          "label": "Shared Admin MR REHN",
+          "value": "NAS24",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Shared Admin MR UEBT",
+          "label": "Shared Admin MR UEBT",
+          "value": "NAS25",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Shared Admin MR WPAS",
+          "label": "Shared Admin MR WPAS",
+          "value": "NAS26",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Shared Admin MR ZENITH",
+          "label": "Shared Admin MR ZENITH",
+          "value": "NAS27",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Shared Admin Orphan",
+          "label": "Shared Admin Orphan",
+          "value": "NAS08",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Shared Admin Priority Scanning",
+          "label": "Shared Admin Priority Scanning",
+          "value": "NAS14",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Shared Admin Professional",
+          "label": "Shared Admin Professional",
+          "value": "NAS15",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Shared Admin Recovery",
+          "label": "Shared Admin Recovery",
+          "value": "NAS31",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Shared Admin Retro Review Medical",
+          "label": "Shared Admin Retro Review Medical",
+          "value": "NAS18",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Shared Admin Sendback",
+          "label": "Shared Admin Sendback",
+          "value": "NAS05",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Shared Admin SIU Corrected Bills",
+          "label": "Shared Admin SIU Corrected Bills",
+          "value": "CIR12",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Shared Admin Support",
+          "label": "Shared Admin Support",
+          "value": "NAS17",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "SIU Claims Corr",
+          "label": "SIU Claims Corr",
+          "value": "CIR04",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "SIU Corrected Bills",
+          "label": "SIU Corrected Bills",
+          "value": "CIR10",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Small Group Sales - RM",
+          "label": "Small Group Sales - RM",
+          "value": "RM21",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Small Group Technical Assistance",
+          "label": "Small Group Technical Assistance",
+          "value": "LMED03",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Starbucks Medicare Corrected Bills",
+          "label": "Starbucks Medicare Corrected Bills",
+          "value": "SB09",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Student Insurance Claims Corr",
+          "label": "Student Insurance Claims Corr",
+          "value": "WA46",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Student Insurance Corrected Bills",
+          "label": "Student Insurance Corrected Bills",
+          "value": "WA47",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Student Insurance Exception",
+          "label": "Student Insurance Exception",
+          "value": "WA48",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Subro Employee IQ",
+          "label": "Subro Employee IQ",
+          "value": "CORR10",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Subro IQ",
+          "label": "Subro IQ",
+          "value": "CORR09",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "WA ASO Corrected Bills",
+          "label": "WA ASO Corrected Bills",
+          "value": "WA34",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "WA ASO/HRA Claims Corr",
+          "label": "WA ASO/HRA Claims Corr",
+          "value": "WA35",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "WEA - RM",
+          "label": "WEA - RM",
+          "value": "RM17",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "WEA Corrected Bills",
+          "label": "WEA Corrected Bills",
+          "value": "NAT22",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Western WA CIR",
+          "label": "Western WA CIR",
+          "value": "CIR07",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "Western WA CIR Research",
+          "label": "Western WA CIR Research",
+          "value": "CIR06",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "WY/MS Corrected Bills",
+          "label": "WY/MS Corrected Bills",
+          "value": "NAT23",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "WY/MS Medicare Corrected Bills",
+          "label": "WY/MS Medicare Corrected Bills",
+          "value": "NAT30",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "XC - RM",
+          "label": "XC - RM",
+          "value": "RM15",
+          "selected": false
+        }
+      ],
+      "id": "8a6bbcbb40a7068c0140a706f27f0069",
+      "value": null,
+      "choiceListConfig": 2
+    },
+    {
+      "multiselect": false,
+      "visibility": 1,
+      "display": "ipdAssignedOwner",
+      "dataType": 1,
+      "name": "ipdAssignedOwner",
+      "viewType": 1,
+      "id": "8a6bbcbb40a7068c0140a706f23a0010",
+      "value": null,
+      "choiceListConfig": 0
+    },
+    {
+      "multiselect": false,
+      "visibility": 0,
+      "display": "DocCntNum",
+      "dataType": 1,
+      "name": "DocCntNum",
+      "viewType": 1,
+      "id": "8a6bbcbb40a7068c0140a706f257002a",
+      "value": null,
+      "choiceListConfig": 0
+    },
+    {
+      "multiselect": false,
+      "visibility": 0,
+      "display": "MailReceiptDate",
+      "dataType": 5,
+      "name": "MailReceiptDate",
+      "viewType": 6,
+      "id": "8a6bbcbb40a7068c0140a706f25b0031",
+      "value": null,
+      "choiceListConfig": 0
+    },
+    {
+      "multiselect": false,
+      "visibility": 0,
+      "display": "MailReceiptDate",
+      "dataType": 5,
+      "name": "MailReceiptDate_DUP_",
+      "viewType": 6,
+      "id": "8a6bbcbb40a7068c0140a706f25b0031",
+      "value": null,
+      "choiceListConfig": 0
+    },
+    {
+      "multiselect": false,
+      "visibility": 0,
+      "display": "AlphaPlanPrefix",
+      "dataType": 1,
+      "name": "AlphaPlanPrefix",
+      "viewType": 1,
+      "id": "8a6bbcbb40a7068c0140a706f2510020",
+      "value": null,
+      "choiceListConfig": 0
+    },
+    {
+      "multiselect": false,
+      "visibility": 0,
+      "display": "SubNum",
+      "dataType": 1,
+      "name": "SubNum",
+      "viewType": 1,
+      "id": "8a6bbcbb40a7068c0140a706f25d0034",
+      "value": null,
+      "choiceListConfig": 0
+    },
+    {
+      "multiselect": false,
+      "visibility": 0,
+      "display": "GroupNum",
+      "dataType": 1,
+      "name": "GroupNum",
+      "viewType": 1,
+      "id": "8a6bbcbb40a7068c0140a706f25b0030",
+      "value": null,
+      "choiceListConfig": 0
+    },
+    {
+      "multiselect": true,
+      "visibility": 0,
+      "display": "TeamCode",
+      "dataType": 1,
+      "name": "TeamCode",
+      "viewType": 1,
+      "choiceList": [
+        {
+          "default": false,
+          "name": "D01",
+          "label": "D01",
+          "value": "D01",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "D02",
+          "label": "D02",
+          "value": "D02",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "D03",
+          "label": "D03",
+          "value": "D03",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "D04",
+          "label": "D04",
+          "value": "D04",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "D05",
+          "label": "D05",
+          "value": "D05",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "D07",
+          "label": "D07",
+          "value": "D07",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "D08",
+          "label": "D08",
+          "value": "D08",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "D09",
+          "label": "D09",
+          "value": "D09",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "D10",
+          "label": "D10",
+          "value": "D10",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "D11",
+          "label": "D11",
+          "value": "D11",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "D12",
+          "label": "D12",
+          "value": "D12",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "D13",
+          "label": "D13",
+          "value": "D13",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "D14",
+          "label": "D14",
+          "value": "D14",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "D15",
+          "label": "D15",
+          "value": "D15",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "D16",
+          "label": "D16",
+          "value": "D16",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "D17",
+          "label": "D17",
+          "value": "D17",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "D18",
+          "label": "D18",
+          "value": "D18",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "D19",
+          "label": "D19",
+          "value": "D19",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "D20",
+          "label": "D20",
+          "value": "D20",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "D21",
+          "label": "D21",
+          "value": "D21",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "D22",
+          "label": "D22",
+          "value": "D22",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "D23",
+          "label": "D23",
+          "value": "D23",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "D24",
+          "label": "D24",
+          "value": "D24",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "D25",
+          "label": "D25",
+          "value": "D25",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "D26",
+          "label": "D26",
+          "value": "D26",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "D27",
+          "label": "D27",
+          "value": "D27",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "D28",
+          "label": "D28",
+          "value": "D28",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "D29",
+          "label": "D29",
+          "value": "D29",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "D31",
+          "label": "D31",
+          "value": "D31",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "D32",
+          "label": "D32",
+          "value": "D32",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "D33",
+          "label": "D33",
+          "value": "D33",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "D44",
+          "label": "D44",
+          "value": "D44",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "D45",
+          "label": "D45",
+          "value": "D45",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "D46",
+          "label": "D46",
+          "value": "D46",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "D47",
+          "label": "D47",
+          "value": "D47",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "D48",
+          "label": "D48",
+          "value": "D48",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "D50",
+          "label": "D50",
+          "value": "D50",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "D51",
+          "label": "D51",
+          "value": "D51",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "D52",
+          "label": "D52",
+          "value": "D52",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "D53",
+          "label": "D53",
+          "value": "D53",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "D54",
+          "label": "D54",
+          "value": "D54",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "D55",
+          "label": "D55",
+          "value": "D55",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "D56",
+          "label": "D56",
+          "value": "D56",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "D57",
+          "label": "D57",
+          "value": "D57",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "D58",
+          "label": "D58",
+          "value": "D58",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "D59",
+          "label": "D59",
+          "value": "D59",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "D60",
+          "label": "D60",
+          "value": "D60",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "D61",
+          "label": "D61",
+          "value": "D61",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "D62",
+          "label": "D62",
+          "value": "D62",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "D63",
+          "label": "D63",
+          "value": "D63",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "D64",
+          "label": "D64",
+          "value": "D64",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "D65",
+          "label": "D65",
+          "value": "D65",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "D70",
+          "label": "D70",
+          "value": "D70",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "D71",
+          "label": "D71",
+          "value": "D71",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "D72",
+          "label": "D72",
+          "value": "D72",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "D73",
+          "label": "D73",
+          "value": "D73",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "D74",
+          "label": "D74",
+          "value": "D74",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "D75",
+          "label": "D75",
+          "value": "D75",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "D76",
+          "label": "D76",
+          "value": "D76",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "D77",
+          "label": "D77",
+          "value": "D77",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "D78",
+          "label": "D78",
+          "value": "D78",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "D79",
+          "label": "D79",
+          "value": "D79",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "D80",
+          "label": "D80",
+          "value": "D80",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "D81",
+          "label": "D81",
+          "value": "D81",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "D82",
+          "label": "D82",
+          "value": "D82",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "D83",
+          "label": "D83",
+          "value": "D83",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "D84",
+          "label": "D84",
+          "value": "D84",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "D85",
+          "label": "D85",
+          "value": "D85",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "D86",
+          "label": "D86",
+          "value": "D86",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "D87",
+          "label": "D87",
+          "value": "D87",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "D88",
+          "label": "D88",
+          "value": "D88",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "D89",
+          "label": "D89",
+          "value": "D89",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "D90",
+          "label": "D90",
+          "value": "D90",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "D91",
+          "label": "D91",
+          "value": "D91",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "D92",
+          "label": "D92",
+          "value": "D92",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "D93",
+          "label": "D93",
+          "value": "D93",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "D94",
+          "label": "D94",
+          "value": "D94",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "D95",
+          "label": "D95",
+          "value": "D95",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "D96",
+          "label": "D96",
+          "value": "D96",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "D97",
+          "label": "D97",
+          "value": "D97",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "D98",
+          "label": "D98",
+          "value": "D98",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "D99",
+          "label": "D99",
+          "value": "D99",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "E23",
+          "label": "E23",
+          "value": "E23",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "E24",
+          "label": "E24",
+          "value": "E24",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "X01",
+          "label": "X01",
+          "value": "X01",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "X02",
+          "label": "X02",
+          "value": "X02",
+          "selected": false
+        }
+      ],
+      "id": "8a6bbcbb40a7068c0140a706f25d0033",
+      "value": null,
+      "choiceListConfig": 2
+    },
+    {
+      "multiselect": true,
+      "visibility": 0,
+      "display": "DocType",
+      "dataType": 1,
+      "name": "DocType",
+      "viewType": 1,
+      "choiceList": [
+        {
+          "default": false,
+          "name": "01- Phys Prac",
+          "label": "01- Phys Prac",
+          "value": "01",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "02 - Institutional",
+          "label": "02 - Institutional",
+          "value": "02",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "03 - reserved for future use",
+          "label": "03 - reserved for future use",
+          "value": "03",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "04 - Dental",
+          "label": "04 - Dental",
+          "value": "04",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "05 - Pharmacy",
+          "label": "05 - Pharmacy",
+          "value": "05",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "06 - Medical Claims Correspondence",
+          "label": "06 - Medical Claims Correspondence",
+          "value": "06",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "07 - Medical CS Correspondence",
+          "label": "07 - Medical CS Correspondence",
+          "value": "07",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "08 - BlueChip Large Dollar",
+          "label": "08 - BlueChip Large Dollar",
+          "value": "08",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "09 - Medical Benefit Advisories",
+          "label": "09 - Medical Benefit Advisories",
+          "value": "09",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "10 - Tracers and Tracer Letters",
+          "label": "10 - Tracers and Tracer Letters",
+          "value": "10",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "11 - DSHS Claims",
+          "label": "11 - DSHS Claims",
+          "value": "11",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "12 - Medical Non-Standard",
+          "label": "12 - Medical Non-Standard",
+          "value": "12",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "13 - Dental Predeterminations",
+          "label": "13 - Dental Predeterminations",
+          "value": "13",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "14 - Dental Non-Standard",
+          "label": "14 - Dental Non-Standard",
+          "value": "14",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "15 - Dental Claims Correspondence",
+          "label": "15 - Dental Claims Correspondence",
+          "value": "15",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "16 - Dental Benefit Advisories",
+          "label": "16 - Dental Benefit Advisories",
+          "value": "16",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "17 - Foreign",
+          "label": "17 - Foreign",
+          "value": "17",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "18 - Transplants",
+          "label": "18 - Transplants",
+          "value": "18",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "19 - Alcohol Treatment Facilities",
+          "label": "19 - Alcohol Treatment Facilities",
+          "value": "19",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "20 - Dental X-ray(s)",
+          "label": "20 - Dental X-ray(s)",
+          "value": "20",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "21 - NorthStar Medical",
+          "label": "21 - NorthStar Medical",
+          "value": "21",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "22 - NorthStar Dental",
+          "label": "22 - NorthStar Dental",
+          "value": "22",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "23 - Travel/Lodging",
+          "label": "23 - Travel/Lodging",
+          "value": "23",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "24 - VM Faxes",
+          "label": "24 - VM Faxes",
+          "value": "24",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "25 - Deductible Credit Forms",
+          "label": "25 - Deductible Credit Forms",
+          "value": "25",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "26 - FSA Claims",
+          "label": "26 - FSA Claims",
+          "value": "26",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "27 - EOB Requested",
+          "label": "27 - EOB Requested",
+          "value": "27",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "28 - EOMB Requested",
+          "label": "28 - EOMB Requested",
+          "value": "28",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "29 - Large Dollar",
+          "label": "29 - Large Dollar",
+          "value": "29",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "30 - Massage Therapy Prescription",
+          "label": "30 - Massage Therapy Prescription",
+          "value": "30",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "31 - Medical Corrected Bills",
+          "label": "31 - Medical Corrected Bills",
+          "value": "31",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "32 - Dental Corrected Bills",
+          "label": "32 - Dental Corrected Bills",
+          "value": "32",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "33 - Dental CS Corr",
+          "label": "33 - Dental CS Corr",
+          "value": "33",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "34 - Exception Processing",
+          "label": "34 - Exception Processing",
+          "value": "34",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "35 - MSP Claims",
+          "label": "35 - MSP Claims",
+          "value": "35",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "36 - Alternare Special Handling",
+          "label": "36 - Alternare Special Handling",
+          "value": "36",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "37 - General CS Correspondence",
+          "label": "37 - General CS Correspondence",
+          "value": "37",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "38 - Latitude Claims Corr",
+          "label": "38 - Latitude Claims Corr",
+          "value": "38",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "39 - Latitude CS Corr",
+          "label": "39 - Latitude CS Corr",
+          "value": "39",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "40 - Dental EOB/EOMB",
+          "label": "40 - Dental EOB/EOMB",
+          "value": "40",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "41 - HCFA EOB/EOMB",
+          "label": "41 - HCFA EOB/EOMB",
+          "value": "41",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "42 - UB EOB/EOMB",
+          "label": "42 - UB EOB/EOMB",
+          "value": "42",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "43 - Avista/Milliman/SFF",
+          "label": "43 - Avista/Milliman/SFF",
+          "value": "43",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "44 - Nat Accts CIR DONT USE 70107",
+          "label": "44 - Nat Accts CIR DONT USE 70107",
+          "value": "44",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "45 - Priority Rescan Image Only",
+          "label": "45 - Priority Rescan Image Only",
+          "value": "45",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "47 - Medical Photos",
+          "label": "47 - Medical Photos",
+          "value": "47",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "48 - Carve Out Claims",
+          "label": "48 - Carve Out Claims",
+          "value": "48",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "49 - PQI",
+          "label": "49 - PQI",
+          "value": "49",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "50 - CS Correspondence & Priority Scanning",
+          "label": "50 - CS Correspondence & Priority Scanning",
+          "value": "50",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "51 - BlueCard CS Priority Scanning",
+          "label": "51 - BlueCard CS Priority Scanning",
+          "value": "51",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "52 - NASCO CS Priority Scanning",
+          "label": "52 - NASCO CS Priority Scanning",
+          "value": "52",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "53 - Medical Back End Scanning",
+          "label": "53 - Medical Back End Scanning",
+          "value": "53",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "54 - Dental Back End Scanning",
+          "label": "54 - Dental Back End Scanning",
+          "value": "54",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "55 - Medical Records",
+          "label": "55 - Medical Records",
+          "value": "55",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "56 - PEI",
+          "label": "56 - PEI",
+          "value": "56",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "57 - Appeals",
+          "label": "57 - Appeals",
+          "value": "57",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "58 - COB Questionnaires",
+          "label": "58 - COB Questionnaires",
+          "value": "58",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "59 - Global Fees",
+          "label": "59 - Global Fees",
+          "value": "59",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "60 - M & B Back End Scanning",
+          "label": "60 - M & B Back End Scanning",
+          "value": "60",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "61 - Calypso Imaging Request",
+          "label": "61 - Calypso Imaging Request",
+          "value": "61",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "62 - Dental vs. Medical Entry",
+          "label": "62 - Dental vs. Medical Entry",
+          "value": "62",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "63 - PEC",
+          "label": "63 - PEC",
+          "value": "63",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "64 - Dental Pre-Det Corr",
+          "label": "64 - Dental Pre-Det Corr",
+          "value": "64",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "65 - EAP",
+          "label": "65 - EAP",
+          "value": "65",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "66 - Calypso Recovery Correspondence",
+          "label": "66 - Calypso Recovery Correspondence",
+          "value": "66",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "67 - Autism",
+          "label": "67 - Autism",
+          "value": "67",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "68 - StayFit",
+          "label": "68 - StayFit",
+          "value": "68",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "69 - ACA Discount Card Reimbursement",
+          "label": "69 - ACA Discount Card Reimbursement",
+          "value": "69",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "70 - PCP/Referral",
+          "label": "70 - PCP/Referral",
+          "value": "70",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "71 - Calypso Subro Case Corr",
+          "label": "71 - Calypso Subro Case Corr",
+          "value": "71",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "72 - Medicare Demand Letter",
+          "label": "72 - Medicare Demand Letter",
+          "value": "72",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "73 - Calypso Subro Level 3",
+          "label": "73 - Calypso Subro Level 3",
+          "value": "73",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "74 - OrthoNet Decision",
+          "label": "74 - OrthoNet Decision",
+          "value": "74",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "75 - Medical Retro Review",
+          "label": "75 - Medical Retro Review",
+          "value": "75",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "76 - Dental Retro Review",
+          "label": "76 - Dental Retro Review",
+          "value": "76",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "77 - Provider Appeals",
+          "label": "77 - Provider Appeals",
+          "value": "77",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "78 - Clinical Appeals",
+          "label": "78 - Clinical Appeals",
+          "value": "78",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "79 - Legal",
+          "label": "79 - Legal",
+          "value": "79",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "80 - Privacy",
+          "label": "80 - Privacy",
+          "value": "80",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "81 - Vendor Appeals",
+          "label": "81 - Vendor Appeals",
+          "value": "81",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "82 - SIU Corrected Bills",
+          "label": "82 - SIU Corrected Bills",
+          "value": "82",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "84 - IRO",
+          "label": "84 - IRO",
+          "value": "84",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "85 - Large Dollar Itemizations",
+          "label": "85 - Large Dollar Itemizations",
+          "value": "85",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "86 - BCBSA Mailings",
+          "label": "86 - BCBSA Mailings",
+          "value": "86",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "87 - No Surprises Dispute",
+          "label": "87 - No Surprises Dispute",
+          "value": "87",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "88 - Large Dollar Pre-Payment Review",
+          "label": "88 - Large Dollar Pre-Payment Review",
+          "value": "88",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "89 - Notice of Consent FNSB",
+          "label": "89 - Notice of Consent FNSB",
+          "value": "89",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "A1 - B2 Unsolicited Attachments AT1",
+          "label": "A1 - B2 Unsolicited Attachments AT1",
+          "value": "A1",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "A2 - B2 Records Request AT2",
+          "label": "A2 - B2 Records Request AT2",
+          "value": "A2",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "A3 - B2 Records Attachment AT3",
+          "label": "A3 - B2 Records Attachment AT3",
+          "value": "A3",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "A4 - B2 Misroute AT4",
+          "label": "A4 - B2 Misroute AT4",
+          "value": "A4",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "A5 - B2 Misroute Response AT5",
+          "label": "A5 - B2 Misroute Response AT5",
+          "value": "A5",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "A6 - Adjustment Request",
+          "label": "A6 - Adjustment Request",
+          "value": "A6",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "A6A - Automation",
+          "label": "A6A - Automation",
+          "value": "A6A",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "A7 - Adjustment Cancelation",
+          "label": "A7 - Adjustment Cancelation",
+          "value": "A7",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "A8 - Adjustment Response",
+          "label": "A8 - Adjustment Response",
+          "value": "A8",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "A9 - Guarantee of Payment",
+          "label": "A9 - Guarantee of Payment",
+          "value": "A9",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "DI - To Be Purged",
+          "label": "DI - To Be Purged",
+          "value": "DI",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "DM - Disease Management",
+          "label": "DM - Disease Management",
+          "value": "DM",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "DU - Duplicate",
+          "label": "DU - Duplicate",
+          "value": "DU",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "E1 - B2 Request",
+          "label": "E1 - B2 Request",
+          "value": "E1",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "E2 - B2 Response",
+          "label": "E2 - B2 Response",
+          "value": "E2",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "G2 - General Inquiry 02",
+          "label": "G2 - General Inquiry 02",
+          "value": "G2",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "G3 - General Inquiry 03",
+          "label": "G3 - General Inquiry 03",
+          "value": "G3",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "G4 - General Inquiry Cancelation",
+          "label": "G4 - General Inquiry Cancelation",
+          "value": "G4",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "IQ - Incident Questionnaire",
+          "label": "IQ - Incident Questionnaire",
+          "value": "IQ",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "M1 - Medical Records Request Cancelation",
+          "label": "M1 - Medical Records Request Cancelation",
+          "value": "M1",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "NA - No Adjustment",
+          "label": "NA - No Adjustment",
+          "value": "NA",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "P1 - Purge Approval Request",
+          "label": "P1 - Purge Approval Request",
+          "value": "P1",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "PL - Payment Ledger",
+          "label": "PL - Payment Ledger",
+          "value": "PL",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "RE - Received in Error, Retnd to Sender",
+          "label": "RE - Received in Error, Retnd to Sender",
+          "value": "RE",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "RM - Returned Mail",
+          "label": "RM - Returned Mail",
+          "value": "RM",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "RR - Refund Request",
+          "label": "RR - Refund Request",
+          "value": "RR",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "RS - Rescan",
+          "label": "RS - Rescan",
+          "value": "RS",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "SB - Send Back",
+          "label": "SB - Send Back",
+          "value": "SB",
+          "selected": false
+        },
+        {
+          "default": false,
+          "name": "WN - Workflow Note",
+          "label": "WN - Workflow Note",
+          "value": "WN",
+          "selected": false
+        }
+      ],
+      "id": "8a6bbcbb40a7068c0140a706f2550026",
+      "value": null,
+      "choiceListConfig": 2
+    },
+    {
+      "multiselect": false,
+      "visibility": 0,
+      "display": "BDOS",
+      "dataType": 5,
+      "name": "BDOS",
+      "viewType": 6,
+      "id": "8a6bbcbb40a7068c0140a706f259002d",
+      "value": null,
+      "choiceListConfig": 0
+    },
+    {
+      "multiselect": false,
+      "visibility": 0,
+      "display": "BDOS",
+      "dataType": 5,
+      "name": "BDOS_DUP_",
+      "viewType": 6,
+      "id": "8a6bbcbb40a7068c0140a706f259002d",
+      "value": null,
+      "choiceListConfig": 0
+    },
+    {
+      "multiselect": false,
+      "visibility": 0,
+      "display": "ProvTIN",
+      "dataType": 1,
+      "name": "ProvTIN",
+      "viewType": 1,
+      "id": "8a6bbcbb40a7068c0140a706f262003c",
+      "value": null,
+      "choiceListConfig": 0
+    },
+    {
+      "multiselect": false,
+      "visibility": 0,
+      "display": "RejectReason",
+      "dataType": 1,
+      "name": "RejectReason",
+      "viewType": 1,
+      "id": "8a6bbcbb40a7068c0140a706f261003b",
+      "value": null,
+      "choiceListConfig": 0
+    },
+    {
+      "multiselect": false,
+      "visibility": 0,
+      "display": "SCCF",
+      "dataType": 1,
+      "name": "SCCF",
+      "viewType": 1,
+      "id": "8a6bbcbb40a7068c0140a706f2600039",
+      "value": null,
+      "choiceListConfig": 0
+    },
+    {
+      "multiselect": false,
+      "visibility": 0,
+      "display": "B2ReasonCode",
+      "dataType": 1,
+      "name": "B2ReasonCode",
+      "viewType": 1,
+      "id": "8a6bbcbb40a7068c0140a706f25a002f",
+      "value": null,
+      "choiceListConfig": 0
+    },
+    {
+      "multiselect": false,
+      "visibility": 0,
+      "display": "B2ImgKey",
+      "dataType": 1,
+      "name": "B2ImgKey",
+      "viewType": 1,
+      "id": "8a6bbcbb40a7068c0140a706f2530023",
+      "value": null,
+      "choiceListConfig": 0
+    },
+    {
+      "multiselect": false,
+      "visibility": 0,
+      "display": "B2Misc",
+      "dataType": 1,
+      "name": "B2Misc",
+      "viewType": 1,
+      "id": "8a6bbcbb40a7068c0140a706f297009a",
+      "value": null,
+      "choiceListConfig": 0
+    },
+    {
+      "multiselect": false,
+      "visibility": 0,
+      "display": "ipdLastUpdated",
+      "dataType": 5,
+      "name": "ipdLastUpdated",
+      "viewType": 5,
+      "id": "8a6bbcbb40a7068c0140a706f22a0007",
+      "value": null,
+      "choiceListConfig": 0
+    },
+    {
+      "multiselect": false,
+      "visibility": 0,
+      "display": "ipdLastUpdated",
+      "dataType": 5,
+      "name": "ipdLastUpdated_DUP_",
+      "viewType": 5,
+      "id": "8a6bbcbb40a7068c0140a706f22a0007",
+      "value": null,
+      "choiceListConfig": 0
+    },
+    {
+      "multiselect": false,
+      "visibility": 0,
+      "display": "ipdLastUserId",
+      "dataType": 1,
+      "name": "ipdLastUserId",
+      "viewType": 1,
+      "id": "8a6bbcbb40a7068c0140a706f22e0008",
+      "value": null,
+      "choiceListConfig": 0
+    }
+  ],
+  "resultSet": {
+    "magazineColumns": [],
+    "columns": {
+      "cells": [
+        [
+          {
+            "field": "DocCntNum",
+            "name": "DocCntNum",
+            "width": "149px",
+            "sortable": true
+          },
+          {
+            "field": "ClaimNum",
+            "name": "ClaimNum",
+            "width": "141px",
+            "sortable": true
+          },
+          {
+            "field": "MailReceiptDate",
+            "name": "MailReceiptDate",
+            "width": "134px",
+            "sortable": true
+          },
+          {
+            "field": "AlphaPlanPrefix",
+            "name": "AlphaPlanPrefix",
+            "width": "188px",
+            "sortable": true
+          },
+          {
+            "field": "SubNum",
+            "name": "SubNum",
+            "width": "143px",
+            "sortable": true
+          },
+          {
+            "field": "GroupNum",
+            "name": "GroupNum",
+            "width": "113px",
+            "sortable": true
+          },
+          {
+            "field": "TeamCode",
+            "name": "TeamCode",
+            "width": "86px",
+            "sortable": true
+          },
+          {
+            "field": "DocType",
+            "name": "DocType",
+            "width": "174px",
+            "sortable": true
+          },
+          {
+            "field": "BDOS",
+            "name": "BDOS",
+            "width": "160px",
+            "sortable": true
+          },
+          {
+            "field": "ProvTIN",
+            "name": "ProvTIN",
+            "width": "170px",
+            "sortable": true
+          },
+          {
+            "field": "RejectReason",
+            "name": "RejectReason",
+            "width": "202px",
+            "sortable": true
+          },
+          {
+            "field": "SCCF",
+            "name": "SCCF",
+            "width": "139px",
+            "sortable": true
+          },
+          {
+            "field": "B2ReasonCode",
+            "name": "B2ReasonCode",
+            "width": "138px",
+            "sortable": true
+          },
+          {
+            "field": "B2ImgKey",
+            "name": "B2ImgKey",
+            "width": "140px",
+            "sortable": true
+          },
+          {
+            "field": "B2Misc",
+            "name": "B2Misc",
+            "width": "142px",
+            "sortable": true
+          },
+          {
+            "field": "ipdReportingTag",
+            "name": "ipdReportingTag",
+            "width": "8em",
+            "sortable": true
+          },
+          {
+            "field": "ipdCreateTime",
+            "name": "ipdCreateTime",
+            "width": "150px",
+            "sortable": true
+          },
+          {
+            "field": "ipdLastUpdated",
+            "name": "ipdLastUpdated",
+            "width": "150px",
+            "sortable": true
+          },
+          {
+            "field": "ipdResponse",
+            "name": "ipdResponse",
+            "width": "106px",
+            "sortable": true
+          },
+          {
+            "field": "ipdLastUserId",
+            "name": "ipdLastUserId",
+            "width": "122px",
+            "sortable": true
+          },
+          {
+            "field": "ipdAssignedOwner",
+            "name": "ipdAssignedOwner",
+            "width": "137px",
+            "sortable": true
+          },
+          {
+            "field": "ipdFromUserId",
+            "name": "ipdFromUserId",
+            "width": "117px",
+            "sortable": true
+          },
+          {
+            "field": "ipdFromWADesc",
+            "name": "ipdFromWADesc",
+            "width": "211px",
+            "sortable": true
+          },
+          {
+            "field": "ipdWADesc",
+            "name": "ipdWADesc",
+            "width": "203px",
+            "sortable": true
+          },
+          {
+            "field": "ipdRouteReasonDesc",
+            "name": "ipdRouteReasonDesc",
+            "width": "225px",
+            "sortable": true
+          },
+          {
+            "field": "ipdRouteInstruct",
+            "name": "ipdRouteInstruct",
+            "width": "349px",
+            "sortable": true
+          },
+          {
+            "field": "ipdHoldReasonDesc",
+            "name": "ipdHoldReasonDesc",
+            "width": "248px",
+            "sortable": true
+          },
+          {
+            "field": "ipdHoldInstruct",
+            "name": "ipdHoldInstruct",
+            "width": "359px",
+            "sortable": true
+          },
+          {
+            "field": "ipdHoldTime",
+            "name": "ipdHoldTime",
+            "width": "150px",
+            "sortable": true
+          },
+          {
+            "field": "ipdPriority",
+            "name": "ipdPriority",
+            "width": "86px",
+            "sortable": true
+          }
+        ]
+      ]
+    },
+    "pageSize": 200,
+    "rows": []
+  }
+}
