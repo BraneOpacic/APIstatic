@@ -3,6 +3,20 @@
   "totalPages": 2,
   "itemsPerPage": 10,
   "totalItems": 20,
+  "headers": {
+    "sessionId": { "sortable": true, "searchable": true },
+    "userId": { "sortable": true, "searchable": true },
+    "name": { "sortable": true, "searchable": true },
+    "signedIn": { "sortable": false, "searchable": false },
+    "debug": { "sortable": true, "searchable": false },
+    "environment": { "sortable": true, "searchable": true },
+    "collection": { "sortable": true, "searchable": false },
+    "remoteIp": { "sortable": true, "searchable": true },
+    "expires": { "sortable": true, "searchable": false },
+    "tranCount": { "sortable": true, "searchable": false },
+    "ntimPhase": { "sortable": true, "searchable": false },
+    "miscInfo": { "sortable": false, "searchable": true }
+  },
   "data": [
     {
       "sessionId": { "value": "12345678" },
