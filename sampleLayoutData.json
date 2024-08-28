@@ -1,0 +1,15 @@
+
+{
+  "uuid1": "3",
+  "uuid2": "2",
+  "uuid3": "1",
+  "uuid4": "test string 1",
+  "uuid5": "test string 2",
+  "uuid6": "readonly test string",
+  "uuid7": "hidden test string",
+  "uuid8": 14.75,
+  "uuid9": 12,
+  "uuid10": "2023-12-15",
+  "uuid11": "2023-12-15T21:35:00Z",
+  "uuid12": false
+}

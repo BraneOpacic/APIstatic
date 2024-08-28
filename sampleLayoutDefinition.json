@@ -1,0 +1,270 @@
+
+{
+  "actions": [
+    {
+      "label": "Save",
+      "action": "save",
+      "actionType":"submit",
+      "apiUrl": "/save/{uuid1}",
+      "navigateUrl": "/list",
+      "variant": "primary"
+    },
+    {
+      "label": "Search",
+      "action": "search",
+      "actionType":"search",
+      "apiUrl": "/search",
+      "variant": "primary"
+    },
+    {
+      "label": "Clear",
+      "action": "reset",
+      "actionType":"reset",
+      "variant": "secondary"
+    }
+  ],
+  "layout": [
+    {
+      "layoutType": "section",
+      "name": "Sample string properties section",
+      "collapsible": false,
+      "defaultCollapsed": false,
+      "children": [
+        {
+          "layoutType": "columns",
+          "children": [
+              {
+                "layoutType": "column",
+                "children": [
+                  {
+                    "layoutType": "text",
+                    "htmlText": "<b>Welcome to the dynamic form</b>"
+                  },
+                  {
+                      "layoutType": "property",
+                      "type": "string",
+                      "id": "uuid1",
+                      "name": "String property 1",
+                      "description": "String property with select field",
+                      "example": "sample",
+                      "defaultValue": ["1", "2"],
+                      "required": false,
+                      "readonly": false,
+                      "display": true,
+                      "multiline": false,
+                      "choiceList": [
+                        {
+                          "key": "1",
+                          "displayName": "Option 1"
+                        },
+                        {
+                          "key": "2",
+                          "displayName": "Option 2"
+                        },
+                        {
+                          "key": "3",
+                          "displayName": "Option 3"
+                        }
+                      ],
+                      "choiceListMultiSelect": false,
+                      "inputType": "select"
+                    },
+                    {
+                      "layoutType": "property",
+                      "type": "string",
+                      "id": "uuid2",
+                      "name": "String property 2",
+                      "description": "String property with checkbox fields",
+                      "example": "sample",
+                      "defaultValue": ["1", "2"],
+                      "required": false,
+                      "readonly": false,
+                      "display": true,
+                      "multiline": false,
+                      "choiceList": [
+                        {
+                          "key": "1",
+                          "displayName": "Option 1"
+                        },
+                        {
+                          "key": "2",
+                          "displayName": "Option 2"
+                        },
+                        {
+                          "key": "3",
+                          "displayName": "Option 3"
+                        }
+                      ],
+                      "choiceListMultiSelect": true,
+                      "inputType": "inputgroup"
+                    },
+                    {
+                      "layoutType": "property",
+                      "type": "string",
+                      "id": "uuid3",
+                      "name": "String property 3",
+                      "description": "String property with radiobutton group fields",
+                      "example": "sample",
+                      "defaultValue": ["1", "2"],
+                      "required": false,
+                      "readonly": false,
+                      "display": true,
+                      "multiline": false,
+                      "choiceList": [
+                        {
+                          "key": "1",
+                          "displayName": "Option 1"
+                        },
+                        {
+                          "key": "2",
+                          "displayName": "Option 2"
+                        },
+                        {
+                          "key": "3",
+                          "displayName": "Option 3"
+                        }
+                      ],
+                      "choiceListMultiSelect": false,
+                      "inputType": "inputgroup"
+                    },
+                    {
+                      "layoutType": "property",
+                      "type": "string",
+                      "id": "uuid4",
+                      "name": "String property 4",
+                      "description": "String property with validations",
+                      "example": "sample",
+                      "defaultValue": "",
+                      "required": true,
+                      "readonly": false,
+                      "display": true,
+                      "multiline": false,
+                      "minLength": 1,
+                      "maxLength": 100,
+                      "pattern": "^[\\w-_#]+",
+                      "patternMessage": "A single letter or '-', '_','#' characters are expected."
+                    },
+                    {
+                      "layoutType": "property",
+                      "type": "string",
+                      "id": "uuid5",
+                      "name": "String property 5",
+                      "description": "String property textarea",
+                      "example": "sample",
+                      "defaultValue": "",
+                      "required": false,
+                      "readonly": false,
+                      "display": true,
+                      "multiline": true
+                    }
+                ]
+              },
+              {
+                "layoutType": "column",
+                "children": [
+                  {
+                    "layoutType": "property",
+                    "type": "string",
+                    "id": "uuid6",
+                    "name": "String property 6",
+                    "description": "String property readonly",
+                    "example": "sample",
+                    "defaultValue": "",
+                    "required": false,
+                    "readonly": true,
+                    "display": true,
+                    "multiline": false
+                  },
+                  {
+                    "layoutType": "property",
+                    "type": "string",
+                    "id": "uuid7",
+                    "name": "String property 7",
+                    "description": "String property hidden",
+                    "defaultValue": "test",
+                    "required": false,
+                    "readonly": false,
+                    "display": false,
+                    "multiline": false
+                  }
+                ]
+              }
+          ]
+        }
+      ]
+    },
+    {
+      "layoutType": "section",
+      "name": "Sample section for other type properties, collapsible",
+      "collapsible": true,
+      "defaultCollapsed": false,
+      "children": [
+        {
+          "layoutType": "property",
+          "type": "number",
+          "id": "uuid8",
+          "name": "number property label",
+          "description": "number property description",
+          "example": "10.5",
+          "defaultValue": 12.5,
+          "required": false,
+          "readonly": false,
+          "display": true,
+          "minValue": 10,
+          "maxValue": 20
+        },
+        {
+          "layoutType": "property",
+          "type": "integer",
+          "id": "uuid9",
+          "name": "integer property label",
+          "description": "integer property description",
+          "example": "10",
+          "defaultValue": 10,
+          "required": false,
+          "readonly": false,
+          "display": true,
+          "minValue": 10,
+          "maxValue": 20
+        },
+        {
+          "layoutType": "property",
+          "type": "date",
+          "id": "uuid10",
+          "name": "Date property label",
+          "description": "Date property",
+          "defaultValue": "2024-08-14",
+          "required": false,
+          "readonly": false,
+          "display": true
+        },
+        {
+          "layoutType": "property",
+          "type": "datetime",
+          "id": "uuid11",
+          "name": "Date property label",
+          "description": "Date time property",
+          "defaultValue": "2024-08-14T22:00:00Z",
+          "required": false,
+          "readonly": false,
+          "display": true
+        },
+        {
+          "layoutType": "property",
+          "type": "boolean",
+          "id": "uuid12",
+          "name": "Boolean property label",
+          "description": "Boolean property description",
+          "defaultValue": true,
+          "required": false,
+          "readonly": false,
+          "display": true,
+          "inputType": "checkbox",
+          "trueLabel": "yes",
+          "falseLabel": "no"
+        }
+      ]
+    }
+  ]
+}
+
