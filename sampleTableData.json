@@ -1,0 +1,42 @@
+[
+  {
+    "id-uuid": "1111",
+    "name-uuid": "Charles Collins",
+    "birth-date-uuid": "1995-09-12",
+    "age-uuid": "39",
+    "weight-uuid": "70.5",
+    "married-uuid": false,
+    "country-uuid": "US",
+    "registration-date-uuid": "2024-07-15T14:34:00Z"
+  },
+  {
+    "id-uuid": "2222",
+    "name-uuid": "Andrea Adams",
+    "birth-date-uuid": "1972-05-03",
+    "age-uuid": "52",
+    "weight-uuid": "62.34",
+    "married-uuid": true,
+    "country-uuid": "IT",
+    "registration-date-uuid": "2024-05-23T16:41:00Z"
+  },
+  {
+    "id-uuid": "3333",
+    "name-uuid": "Oliver Andrews",
+    "birth-date-uuid": "1977-02-26",
+    "age-uuid": "47",
+    "weight-uuid": "83.4",
+    "married-uuid": true,
+    "country-uuid": "FR",
+    "registration-date-uuid": "2024-03-29T09:03:00Z"
+  },
+  {
+    "id-uuid": "4444",
+    "name-uuid": "Jessica Roberts",
+    "birth-date-uuid": "1999-12-19",
+    "age-uuid": "25",
+    "weight-uuid": "72.1",
+    "married-uuid": false,
+    "country-uuid": "AU",
+    "registration-date-uuid": "2024-01-12T19:19:00Z"
+  }
+]

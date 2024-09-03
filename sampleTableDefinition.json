@@ -1,0 +1,97 @@
+{
+  "allowResizeColumns": false,
+  "allowMultipleSort": false,
+  "pagination": {
+    "pageSize": 10,
+    "position": "bottom",
+    "align": "end"
+  },
+  "columns": [
+    {
+      "id": "name-uuid",
+      "name": "Name",
+      "type": "string",
+      "sortable": true,
+      "filterable": true,
+      "columnWidth": 300,
+      "url": "path/to/edit/{id}"
+    },
+    {
+      "id": "birth-date-uuid",
+      "name": "Date of birth",
+      "type": "date",
+      "sortable": true,
+      "filterable": true,
+      "dateFormat":"MM/DD/YYYY"
+    },
+    {
+      "id": "age-uuid",
+      "name": "Age",
+      "type": "integer",
+      "sortable": true,
+      "filterable": true
+    },
+    {
+      "id": "weight-uuid",
+      "name": "Weight",
+      "type": "number",
+      "sortable": true,
+      "filterable": true
+    },
+    {
+      "id": "married-uuid",
+      "name": "Married",
+      "type": "boolean",
+      "sortable": true,
+      "filterable": true,
+      "trueLabel": "yes",
+      "falseLabel": "no"
+    },
+    {
+      "id": "country-uuid",
+      "name": "Country",
+      "type": "string",
+      "sortable": true,
+      "filterable": true,
+      "choicelist": [
+        {"key": "US", "label": "United States"},
+        {"key": "IN", "label": "India"},
+        {"key": "AU", "label": "Australia"},
+        {"key": "IT", "label": "Italy"},
+        {"key": "FR", "label": "France"}
+      ]
+    },
+    {
+      "id": "registration-date-uuid",
+      "name": "Registration date",
+      "type": "datetime",
+      "sortable": true,
+      "filterable": true,
+      "dateFormat":"MM/DD/YYYY mm:hh:ss"
+    }
+  ],
+  "actions": [
+    {
+      "label": "View",
+      "action": "view",
+      "apiUrl": "",
+      "navigateUrl": "/view/{id-uuid}",
+      "variant": "primary"
+    },
+    {
+      "label": "Copy",
+      "action": "copy",
+      "apiUrl": "/copy/{id-uuid}",
+      "navigateUrl": "",
+      "variant": "secondary"
+    },
+    {
+      "label": "Delete",
+      "action": "delete",
+      "apiUrl": "/delete/{id-uuid}",
+      "navigateUrl": "",
+      "variant": "danger"
+    }
+  ]
+}
+
