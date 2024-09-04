@@ -262,6 +262,20 @@
           "inputType": "checkbox",
           "trueLabel": "yes",
           "falseLabel": "no"
+        },
+        {
+          "layoutType": "property",
+          "type": "boolean",
+          "id": "uuid13",
+          "name": "Select property label",
+          "description": "Select property description",
+          "defaultValue": true,
+          "required": false,
+          "readonly": false,
+          "display": true,
+          "inputType": "select",
+          "trueLabel": "yes",
+          "falseLabel": "no"
         }
       ]
     }
