@@ -151,7 +151,7 @@
                   "description": "String property textarea",
                   "example": "sample",
                   "defaultValue": "",
-                  "required": false,
+                  "required": true,
                   "readonly": false,
                   "display": true,
                   "multiline": true
