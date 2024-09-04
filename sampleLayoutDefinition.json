@@ -163,6 +163,10 @@
                 "layoutType": "column",
                 "children": [
                   {
+                    "layoutType": "text",
+                    "htmlText": "<b>Personal information about the user</b>"
+                  },
+                  {
                     "layoutType": "property",
                     "type": "string",
                     "id": "uuid6",
