@@ -179,8 +179,15 @@
                       "description": "First additional string",
                       "required": true,
                       "multiline": false,
-                      "display": true
-                    },
+                      "display": true,
+                      "example": "sample",
+                      "defaultValue": "",
+                      "readonly": false,
+                      "minLength": 1,
+                      "maxLength": 100,
+                      "pattern": "^[\\w-_#]+",
+                      "patternMessage": "A single letter or '-', '_','#' characters are expected."
+                    }
                     {
                       "layoutType": "property",
                       "type": "string",
@@ -189,8 +196,15 @@
                       "description": "Second additional string",
                       "required": true,
                       "multiline": false,
-                      "display": true
-                    },
+                      "display": true,
+                      "example": "sample",
+                      "defaultValue": "",
+                      "readonly": false,
+                      "minLength": 1,
+                      "maxLength": 100,
+                      "pattern": "^[\\w-_#]+",
+                      "patternMessage": "A single letter or '-', '_','#' characters are expected."
+                    }
                     {
                       "layoutType": "property",
                       "type": "string",
@@ -199,7 +213,14 @@
                       "description": "Third additional string",
                       "required": true,
                       "multiline": false,
-                      "display": true
+                      "display": true,
+                      "example": "sample",
+                      "defaultValue": "",
+                      "readonly": false,
+                      "minLength": 1,
+                      "maxLength": 100,
+                      "pattern": "^[\\w-_#]+",
+                      "patternMessage": "A single letter or '-', '_','#' characters are expected."
                     }
                   ]
                 },
