@@ -178,7 +178,8 @@
                       "name": "Additional String 1",
                       "description": "First additional string",
                       "required": true,
-                      "multiline": false
+                      "multiline": false,
+                      "display": true
                     },
                     {
                       "layoutType": "property",
@@ -187,7 +188,8 @@
                       "name": "Additional String 2",
                       "description": "Second additional string",
                       "required": true,
-                      "multiline": false
+                      "multiline": false,
+                      "display": true
                     },
                     {
                       "layoutType": "property",
@@ -196,7 +198,8 @@
                       "name": "Additional String 3",
                       "description": "Third additional string",
                       "required": true,
-                      "multiline": false
+                      "multiline": false,
+                      "display": true
                     }
                   ]
                 },
