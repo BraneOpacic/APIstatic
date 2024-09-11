@@ -166,6 +166,41 @@
                   "htmlText": "<b>Personal information about the user</b>"
                 },
                 {
+                  "layoutType": "section",
+                  "name": "Additional Information",
+                  "collapsible": true,
+                  "defaultCollapsed": true,
+                  "children": [
+                    {
+                      "layoutType": "property",
+                      "type": "string",
+                      "id": "uuid15",
+                      "name": "Additional String 1",
+                      "description": "First additional string",
+                      "required": true,
+                      "multiline": false
+                    },
+                    {
+                      "layoutType": "property",
+                      "type": "string",
+                      "id": "uuid16",
+                      "name": "Additional String 2",
+                      "description": "Second additional string",
+                      "required": true,
+                      "multiline": false
+                    },
+                    {
+                      "layoutType": "property",
+                      "type": "string",
+                      "id": "uuid17",
+                      "name": "Additional String 3",
+                      "description": "Third additional string",
+                      "required": true,
+                      "multiline": false
+                    }
+                  ]
+                },
+                {
                   "layoutType": "property",
                   "type": "string",
                   "id": "uuid6",
