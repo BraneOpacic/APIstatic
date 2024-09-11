@@ -187,7 +187,7 @@
                       "maxLength": 100,
                       "pattern": "^[\\w-_#]+",
                       "patternMessage": "A single letter or '-', '_','#' characters are expected."
-                    }
+                    },
                     {
                       "layoutType": "property",
                       "type": "string",
@@ -204,7 +204,7 @@
                       "maxLength": 100,
                       "pattern": "^[\\w-_#]+",
                       "patternMessage": "A single letter or '-', '_','#' characters are expected."
-                    }
+                    },
                     {
                       "layoutType": "property",
                       "type": "string",
