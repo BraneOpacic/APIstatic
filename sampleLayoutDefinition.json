@@ -225,6 +225,65 @@
                   ]
                 },
                 {
+                  "layoutType": "section",
+                  "name": "Additional Information (Not collapsible)",
+                  "collapsible": false,
+                  "defaultCollapsed": false,
+                  "children": [
+                    {
+                      "layoutType": "property",
+                      "type": "string",
+                      "id": "uuid19",
+                      "name": "Additional String 19",
+                      "description": "19 additional string",
+                      "required": true,
+                      "multiline": false,
+                      "display": true,
+                      "example": "sample",
+                      "defaultValue": "",
+                      "readonly": false,
+                      "minLength": 1,
+                      "maxLength": 100,
+                      "pattern": "^[\\w-_#]+",
+                      "patternMessage": "A single letter or '-', '_','#' characters are expected."
+                    },
+                    {
+                      "layoutType": "property",
+                      "type": "string",
+                      "id": "uuid20",
+                      "name": "Additional String 20",
+                      "description": "20 additional string",
+                      "required": true,
+                      "multiline": false,
+                      "display": true,
+                      "example": "sample",
+                      "defaultValue": "",
+                      "readonly": false,
+                      "minLength": 1,
+                      "maxLength": 100,
+                      "pattern": "^[\\w-_#]+",
+                      "patternMessage": "A single letter or '-', '_','#' characters are expected."
+                    },
+                    {
+                      "layoutType": "property",
+                      "type": "string",
+                      "id": "uuid18",
+                      "name": "Additional String 18",
+                      "description": "18 additional string",
+                      "required": true,
+                      "multiline": false,
+                      "display": true,
+                      "example": "sample",
+                      "defaultValue": "",
+                      "readonly": false,
+                      "minLength": 1,
+                      "maxLength": 100,
+                      "pattern": "^[\\w-_#]+",
+                      "patternMessage": "A single letter or '-', '_','#' characters are expected."
+                    }
+                  ]
+                },
+                {
                   "layoutType": "property",
                   "type": "string",
                   "id": "uuid6",
