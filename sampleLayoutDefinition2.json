@@ -1,0 +1,138 @@
+{
+  "pageTitle": "View image",
+  "actions": [
+    {
+      "id": "1111",
+      "label": "List contents",
+      "action": "search",
+      "actionType": "search",
+      "apiUrl": "/search",
+      "variant": "primary",
+      "tableDefinitionId": "4444"
+    },
+    {
+      "id": "2222",
+      "label": "Reset",
+      "action": "reset",
+      "actionType": "reset",
+      "variant": "secondary"
+    },
+    {
+      "id": "3333",
+      "label": "Extended search",
+      "action": "link",
+      "actionType": "link",
+      "variant": "secondary"
+    }
+  ],
+  "layout": [
+    {
+      "layoutType": "section",
+      "name": "Required",
+      "collapsible": false,
+      "defaultCollapsed": false,
+      "children": [
+        {
+          "layoutType": "columns",
+          "children": [
+            {
+              "layoutType": "column",
+              "children": [
+                {
+                  "layoutType": "property",
+                  "type": "string",
+                  "id": "aplication-id-uuid",
+                  "name": "Application id",
+                  "required": true,
+                  "readonly": false,
+                  "display": true
+                }
+              ]
+            },
+            {
+              "layoutType": "column",
+              "children": [
+                {
+                  "layoutType": "property",
+                  "type": "string",
+                  "id": "folder-id-uuid",
+                  "name": "Folder id",
+                  "required": true,
+                  "readonly": false,
+                  "display": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "layoutType": "section",
+      "name": "Filters",
+      "collapsible": true,
+      "defaultCollapsed": false,
+      "children": [
+        {
+          "layoutType": "columns",
+          "children": [
+            {
+              "layoutType": "column",
+              "children": [
+                {
+                  "layoutType": "property",
+                  "type": "string",
+                  "id": "file-tab-uuid",
+                  "name": "File Tab",
+                  "required": false,
+                  "readonly": false,
+                  "display": true
+                }
+              ]
+            },
+            {
+              "layoutType": "column",
+              "children": [
+                {
+                  "layoutType": "property",
+                  "type": "date",
+                  "id": "start-date-uuid",
+                  "name": "Start date",
+                  "description": "Date format is YYYYMMDD",
+                  "required": false,
+                  "readonly": false,
+                  "display": true
+                }
+              ]
+            },
+            {
+              "layoutType": "column",
+              "children": [
+                {
+                  "layoutType": "property",
+                  "type": "date",
+                  "id": "end-date-uuid",
+                  "name": "End date",
+                  "description": "Date format is YYYYMMDD",
+                  "required": false,
+                  "readonly": false,
+                  "display": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "layoutType": "property",
+          "type": "boolean",
+          "id": "deleted-images-uuid",
+          "name": "Show deleted images",
+          "required": false,
+          "readonly": false,
+          "display": true,
+          "inputType": "checkbox"
+        }
+      ]
+    }
+  ]
+}
