@@ -1,4 +1,5 @@
 {
+  "pageTitle": "Some page title",
   "actions": [
     {
       "label": "Save",
