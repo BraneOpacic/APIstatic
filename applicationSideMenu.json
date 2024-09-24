@@ -1,0 +1,103 @@
+[
+  {
+    "label": "Image",
+    "type": "group",
+    "children": [
+      {
+        "label": "View",
+        "type": "item",
+        "route": "/"
+      },
+      {
+        "label": "Move/Copy",
+        "type": "item",
+        "route": "/"
+      }
+    ]
+  },
+  {
+    "label": "File cabinets",
+    "type": "group",
+    "children": [
+      {
+        "label": "My cabinets",
+        "type": "item",
+        "route": "/"
+      },
+      {
+        "label": "All cabinets",
+        "type": "item",
+        "route": "/all-cabinets"
+      }
+    ]
+  },
+  {
+    "label": "Reports",
+    "type": "group",
+    "children": [
+      {
+        "label": "My reports",
+        "type": "item",
+        "route": "/"
+      },
+      {
+        "label": "All reports",
+        "type": "item",
+        "route": "/"
+      }
+    ]
+  },
+  {
+    "label": "Security",
+    "type": "group",
+    "children": [
+      {
+        "label": "Violations",
+        "type": "item",
+        "route": "/"
+      },
+      {
+        "label": "Request",
+        "type": "item",
+        "route": "/"
+      },
+      {
+        "label": "CMOD access",
+        "type": "item",
+        "route": "/"
+      }
+    ]
+  },
+  {
+    "label": "IMI",
+    "type": "group",
+    "children": [
+      {
+        "label": "IMI",
+        "type": "item",
+        "route": "/"
+      }
+    ]
+  },
+  {
+    "label": "User account",
+    "type": "group",
+    "children": [
+      {
+        "label": "Login",
+        "type": "item",
+        "route": "/"
+      },
+      {
+        "label": "Logout",
+        "type": "item",
+        "route": "/"
+      },
+      {
+        "label": "Settings",
+        "type": "item",
+        "route": "/"
+      }
+    ]
+  }
+]
